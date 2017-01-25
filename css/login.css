@@ -1,0 +1,89 @@
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: solid black 3px;
+  background-size: 100% 1020px;
+  float: left;
+  position:absolute;
+}
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0 auto;
+}
+.container {
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(52, 73, 94,0.7);
+  border-radius: 4px;
+  padding-top: 0px;
+  position: relative;
+  line-height: 2em;
+  background-image:url('https://media0.giphy.com/media/Xcx29oC0TsgYE/200.gif#56');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black 1px;
+}
+.container img {
+  width: 100px;
+  height: 100px;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  border: solid #2e3e39 1px;
+  border-radius: 100%;
+}
+input[type="text"], input[type="password"]{
+  width: 300;
+  height: 45px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.form-input::before {
+  content: "\f007";
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 30px;
+  padding-left: 5px;
+  padding-top: 7px;
+}
+.form-input:nth-child(2)::before {
+  content: "\f023";
+}
+.btn-login {
+  padding: 15px 35px;
+  color: #fff;
+  background-color: #21451e;
+  border: solid black 1px;
+  border-radius: 4px;
+  color: #91e7cb;
+  font-weight: bolder;
+  text-shadow:
+  -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+a {
+  text-decoration: none;
+  font-family: Courier;
+  color: white;
+  font-weight: bolder;
+  text-shadow:
+  -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+audio {
+   display:none;
+}

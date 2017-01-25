@@ -1,0 +1,120 @@
+<DOCTYPE! html>
+<html>
+  <head>
+    <title> My first Web Page </title>
+    <link rel="stylesheet" href="myfirststyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Shade|Special+Elite" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Proza+Libre" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="myfirstwebpage.js"></script>
+    <script>
+    var showText = function (target, message, index, interval) {
+      if (index < message.length) {
+        $(target).append(message[index++]);
+        setTimeout(function () { showText(target, message, index, interval); }, interval);
+
+      }
+}
+    </script>
+  </head>
+    <body>
+      <button id="mute"><div><img id="muteImg" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/Volume_2.png" height="15px" width="15px"/></div>Mute audio</button>
+      <div id="nav">
+        <div id="nav_wrapper">
+          <ul>
+            <li><a class="menu" id="home" href="file:///Users/Matt/Documents/odin-project/html/myfirstwebpage/myfirstwebpage.html">Home</a></li><li>
+            <a class="menu" id="login" href="file:///Users/Matt/Documents/odin-project/html/myfirstwebpage/login.html">Login</a></li><li>
+            <a class="menu" id="about" href="#">About</a></li><li>
+            <a class="menu" id="contact" href="file:///Users/Matt/Documents/odin-project/html/myfirstwebpage/contact.html">Contact</a></li><li>
+            <a class="menu" id="social" href="#">Social <img style="height: 40px; width: 40px" src="kameha.png"/></a>
+              <ul>
+                <li><a href="https://www.youtube.com/user/AnimeLiveReactions">Youtube</a></li>
+                <li><a href="https://twitter.com/DBZcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+                <li><a href="https://www.facebook.com/dbzzz.fanclub">Facebook</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="background">
+        <img src="http://wallpapercave.com/wp/XqE3Pyg.jpg" class="stretch" alt="" />
+      </div>
+      <div id="banner">
+          <p id="normal"> Dragon Ball Z</p>
+      </div>
+      <div id="introParagraph"><p></p></div>
+      <img id="top" src="https://media0.giphy.com/media/oRguWCfyqCGic/200.gif#9"/><br>
+
+      <br>
+
+    <form action="https://www.yahoo.com/" method="GET" name="dbz_form">
+      <p class="form"> Username: </p>
+      <input style="margin-left: 20px" type="text" name="username"><br>
+      <p class="form"> Password </p>
+      <input style="margin-left: 20px" type="password" name="password"><br>
+      <input style="margin-left: 20px" type="radio" name="gender" value="male">Male<br>
+      <input style="margin-left: 20px" type="radio" name="gender" value="female">Female<br><br>
+        <h2> The Z Fighters </h2>
+        <ul>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Goku">Goku<img class="hovergif" src="https://media1.giphy.com/media/82hGJ6ezbEz7O/200.gif#40"/></p></a> </li>
+                <img class="picture" src="https://media2.giphy.com/media/TBiIQKoTBQHTO/200.gif#35">
+              <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/9F20IeFnG8w" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Vegeta">Vegeta</a></p></li>
+                <img class="picture" src="https://media2.giphy.com/media/f6RpFjCsphh4Y/200.gif#53">
+                <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/cA-WIynIzzs" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Gohan">Gohan</a></p></li>
+              <img class="picture" src="https://media3.giphy.com/media/PA3evhzGZ5pNm/200.gif#80">
+                <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/C_lgwedINx8" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Trunks"> Trunks</a></p></li>
+              <img class="picture" src="https://media1.giphy.com/media/wE9v3SoZyu8OQ/200.gif#67">
+                <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/iGMtXqo1N9E" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Special:Search?query=piccolo">Piccolo</a></p></li>
+                <img class="picture" src="https://67.media.tumblr.com/d0d66d544cad78675f8806cd1c69a33b/tumblr_o4illpAOrq1ufw8o4o2_500.gif">
+                  <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/1zjyTM7rbJs" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Krillin">Krillin</a></p></li>
+                    <img class="picture" src="https://media3.giphy.com/media/5wXBRHKarrk8E/200.gif#42">
+                      <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/i7z9hvc5oAU" frameborder="0" allowfullscreen></iframe>
+            <li><p><a href="http://dragonball.wikia.com/wiki/Goten">Goten</a></p></li>
+                    <img class="picture" src="https://media1.giphy.com/media/w6JyQiYum7Qbu/200.gif#31">
+                      <iframe class="video" width="660" height="315" src="https://www.youtube.com/embed/P3IlNYCZRsQ" frameborder="0" allowfullscreen></iframe>
+        </ul>
+        <p class="form"> Who's your favorite Z fighter? </p>
+        <input class="character" type="radio" name="char" value="Goku"><span style="font-size: 25px">Goku</span><br>
+        <input class="character" type="radio" name="char" value="Vegeta"><span style="font-size: 25px">Vegeta</span><br>
+        <input class="character" type="radio" name="char" value="Piccolo"><span style="font-size: 25px">Piccolo</span><br>
+        <input class="character" type="radio" name="char" value="Gohan"><span style="font-size: 25px">Gohan</span><br>
+        <input class="character" type="radio" name="char" value="Trunks"><span style="font-size: 25px">Trunks</span><br>
+        <input class="character" type="radio" name="char" value="Krillin"><span style="font-size: 25px">Krillin</span><br>
+        <input class="character" type="radio" name="char" value="Goten"><span style="font-size: 25px">Goten</span><br><br>
+        <input class="character" type="submit" value="Submit"><br>
+        <br>
+        <h2> Introducing   the   <strong><span style="color: red">villains...</span><strong> </h2>
+
+            <ul>
+              <li><p><a href="http://dragonball.wikia.com/wiki/Frieza">Frieza</a></p></li>
+                <img class="picture" src="https://media1.giphy.com/media/rW1ewtLar7KbC/200.gif#11"/>
+                  <iframe class="villain_video" width="560" height="315" src="https://www.youtube.com/embed/RcGtUEHzk9s" frameborder="0" allowfullscreen></iframe>
+              <li><p><a href="http://dragonball.wikia.com/wiki/Cell"><span style="margin-left: 10px">Cell</span></a></p></li>
+                <img class="picture" src="https://media0.giphy.com/media/mMcz2sXIMW4TK/200.gif#11"/>
+                  <iframe class="villain_video" width="560" height="315" src="https://www.youtube.com/embed/oRM-myGGZTE" frameborder="0" allowfullscreen></iframe>
+              <li><p><a href="http://dragonball.wikia.com/wiki/Buu"><span style="margin-left: -30px">Majin Buu</span></a></p></li>
+                <img class="picture" src="https://media4.giphy.com/media/VL9LTJnIt78as/200.gif#36"/>
+                  <iframe class="villain_video" width="560" height="315" src="https://www.youtube.com/embed/-hOgnxxZA_s" frameborder="0" allowfullscreen></iframe>
+              <li><p><a href="http://dragonball.wikia.com/wiki/Goku_Black"><span style="margin-left: -30px">Goku Black</span></a></p></li>
+                <img class="picture" src="http://67.media.tumblr.com/7a7dad24e0a0b039838112cba65f46b5/tumblr_o8nufrc62h1sh8nv9o1_500.gif"/>
+                  <iframe class="villain_video" width="560" height="315" src="https://www.youtube.com/embed/d0UDR15dkGo" frameborder="0" allowfullscreen></iframe>
+            </ul>
+
+          <p class="form"> Who's your favorite villain? </p>
+          <input class="character" type="radio" name="char" value="Frieza"><span style="font-size: 25px">Frieza</span><br>
+          <input class="character" type="radio" name="char" value="Cell"><span style="font-size: 25px">Cell</span><br>
+          <input class="character" type="radio" name="char" value="Majin Buu"><span style="font-size: 25px">Majin Buu</span><br>
+          <input class="character" type="radio" name="char" value="Goku Black"><span style="font-size: 25px">Goku Black</span><br><br>
+          <input style="margin-left: 100px" class="submit" type="submit" value="Submit">
+          <br>
+          <!-- bootstrap js -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <audio id="audio" autoplay="true" src="dbz.mp3">
+      </body>
+</html>

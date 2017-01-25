@@ -1,0 +1,88 @@
+#background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: solid black 3px;
+}
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  color: white;
+  font-weight: bolder;
+  font-family: 'Freckle Face', cursive;
+  text-align: center;
+  height: 500px;
+  line-height: 500px;
+  font-size: 60px;
+}
+#nav {
+  background-color: #222;
+}
+#nav_wrapper{
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+}
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+#nav ul li{
+  display: inline-block;
+  width: 18%;
+}
+#nav ul li:hover{
+  background-color: #333;
+  width: 137px;
+}
+#nav ul li img {
+  vertical-align: middle;
+  padding-left: 30px;
+}
+#nav ul li a:visited {
+  color: #ccc;
+  display: block;
+  padding: 15px;
+}
+#nav ul li a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+#nav ul li:hover ul{
+  display: block;
+}
+#nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  border: 5px solid #222;
+  border-top: 0;
+  margin-left: -5px;
+  min-width: 100px;
+}
+#nav ul ul li {
+  display: block;
+}
+#nav ul ul li a:visited{
+  color: #ccc;
+}
+#nav ul ul li a:hover {
+  color: #099;
+}
+li a {
+  font-weight: bold;
+  color: #633f4f;
+  font-size: 35px;
+  text-decoration: none;
+  line-height: 20px;
+  font-family: Impact;
+  margin-left: 0px;
+  text-decoration: none;
+}
