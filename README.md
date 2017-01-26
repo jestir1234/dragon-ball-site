@@ -1,2 +1,2 @@
 # dragon-ball-site
-Simple website using HTML, CSS, jQuery, Javascript, 
+Simple website built using HTML, CSS, jQuery, Javascript
